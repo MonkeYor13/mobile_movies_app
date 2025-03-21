@@ -15,7 +15,7 @@ export default function Index() {
         contentContainerStyle={{ minHeight: "100%", paddingBottom: 10 }}
       >
         <Image source={icons.logo} className="w-12 h-10 mx-auto mt-20" />
-        <View className="flex-1">
+        <View className="flex-1 mt-5">
           <SearchBar 
           onPress={() => router.push("/search")}
           placeholder="Search the Movie"
